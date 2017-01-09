@@ -77,6 +77,7 @@ public class GraficoDeAsteriscos
 	
 	public void imprGrafAsterisco( int numero )
 	{
+		System.out.println();
 		for( int i = 0; i < numero; i++ ) 
 		{
 			System.out.print( '*' );
