@@ -71,6 +71,8 @@ public class GraficoDeAsteriscos
 		grafico.imprGrafAsterisco( grafico.getNum3() );
 		grafico.imprGrafAsterisco( grafico.getNum4() );
 		grafico.imprGrafAsterisco( grafico.getNum5() );
+		
+		entrada.close();
 	}
 	
 	public void imprGrafAsterisco( int numero )
