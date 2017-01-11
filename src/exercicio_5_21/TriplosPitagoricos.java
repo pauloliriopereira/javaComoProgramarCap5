@@ -1,4 +1,4 @@
-package exercicio_5_20;
+package exercicio_5_21;
 
 /*
  * Um triângulo retângulo pode ter lados cujos comprimentos são todos inteiros.

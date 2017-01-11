@@ -1,4 +1,4 @@
-package exercicio_5_19;
+package exercicio_5_20;
 
 /*
  * Calcule o valor de pi a partir de uma série infinita pi = 4 - (4/3) + (4/5) - (4/7) + (4/9) - (4/11) + …
