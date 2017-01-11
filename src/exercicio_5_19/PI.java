@@ -10,16 +10,19 @@ public class PI
 	public static void main( String[] args ) 
 	{
 		double pi = 0.0;
-		for( int i = 1; i <= 200000; i++ )
+		
+		for( int i = 1, j = 1; i <= 376900; i++, j += 2 )
 		{
 			if( i % 2 == 0 ) 
 			{
-				pi -= ( pi / ( i + 2 ) ); 
+				pi -= ( 4.0 / j ); 
 			} 
 			else 
 			{
-				pi += ( pi / ( i + 2 ) );
+				pi += ( 4.0 / j );
 			}
 		}
+		
+		System.out.printf( "Valor de pi e %.10f", pi );
 	}
 }
